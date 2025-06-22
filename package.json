@@ -48,6 +48,7 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@tailwindcss/postcss": "^4.1.10",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^24.0.3",
     "@types/react": "19.1.6",
     "@types/react-dom": "19.1.6",
     "@typescript-eslint/parser": "^6.12.0",
