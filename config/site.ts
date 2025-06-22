@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: 'Reely',
-  description: 'Reely is a movie and tv show tracker built by Mohamed Gado.',
+  name: 'HDStream',
+  description: 'HDStream is a movie and tv show tracker built by Mohamed Gado.',
   mainNav: [
     {
       title: 'Home',
@@ -31,22 +31,22 @@ export const siteConfig = {
     },
   ],
   personalLogo:
-    'https://pbs.twimg.com/profile_images/1446549954231738370/IVkXC16N_400x400.jpg',
+    'https://pbs.twimg.com/profile_images/1687092699529195521/odspmCVf_400x400.jpg',
   links: {
-    twitter: 'https://twitter.com/Sadge1996',
-    github: 'https://github.com/Vette1123',
-    website: 'https://www.mohamedgado.com/',
-    buyMeACoffee: 'https://buymeacoffee.com/vetteotp',
+    twitter: 'https://x.com/henry_dust91051',
+    github: 'https://www.youtube.com/@WebDev_Insider',
+    website: 'https://henrydustin.netlify.app/',
+    buyMeACoffee: 'https://www.instagram.com/hen_rydustin/',
   },
   openGraph: {
     locale: 'en_US',
     type: 'website',
   },
-  email: 'boogado@yahoo.com',
-  websiteURL: 'https://www.reely.site',
-  twitterTag: '@Sadge1996',
+  email: 'henrydustin95@gmail.com',
+  websiteURL: 'https://hdstream.vercel.app/',
+  twitterTag: '@henry_dust91051',
   image:
-    'https://pbs.twimg.com/profile_images/1446549954231738370/IVkXC16N_400x400.jpg',
+    'https://pbs.twimg.com/profile_images/1687092699529195521/odspmCVf_400x400.jpg',
   keywords: [
     'Reely',
     'Reely Site',

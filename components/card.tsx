@@ -59,7 +59,7 @@ export const Card = ({
       <HoverCardContent className="hidden w-80 md:block" side="right">
         <div className="flex justify-between space-x-4">
           <Avatar>
-            <AvatarImage src="/personal-logo.png" />
+            <AvatarImage src="/henry.jpg" />
             <AvatarFallback>VC</AvatarFallback>
           </Avatar>
           <div className="space-y-1">

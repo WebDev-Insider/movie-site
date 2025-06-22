@@ -3,7 +3,7 @@
 import * as React from 'react'
 import { useRouter } from 'next/navigation'
 import { searchMovieAction } from '@/actions/search'
-import { Home, Tv } from 'lucide-react'
+import { Home, Instagram, Tv } from 'lucide-react'
 import { useDebouncedCallback } from 'use-debounce'
 
 import { MediaType } from '@/types/media'
@@ -223,13 +223,13 @@ export function CommandMenu({ ...props }: CommandDialogProps) {
               className="cursor-pointer"
               onSelect={() =>
                 runCommand(() =>
-                  window.open(`https://www.mohamedgado.com/`, '_blank')
+                  window.open(`https://henrydustin.netlify.app/`, '_blank')
                 )
               }
             >
               <div className="flex items-center gap-4">
                 <Avatar>
-                  <AvatarImage src="/personal-logo.png" />
+                  <AvatarImage src="/henry.jpg" />
                   <AvatarFallback>G</AvatarFallback>
                 </Avatar>
                 Portfolio
@@ -239,13 +239,13 @@ export function CommandMenu({ ...props }: CommandDialogProps) {
               className="cursor-pointer"
               onSelect={() =>
                 runCommand(() =>
-                  window.open(`https://buymeacoffee.com/vetteotp`, '_blank')
+                  window.open(`https://www.instagram.com/hen_rydustin/`)
                 )
               }
             >
               <div className="flex items-center gap-4">
-                <Icons.buyMeACoffee className="size-5" />
-                Buy me a coffee
+                <Instagram className="size-5" />
+                Follow on Instagram
               </div>
             </CommandItem>
           </CommandGroup>

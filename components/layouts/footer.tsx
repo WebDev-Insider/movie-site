@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { Instagram } from 'lucide-react'
 
 import { siteConfig } from '@/config/site'
 import { cn } from '@/lib/utils'
@@ -23,7 +24,7 @@ export function Footer() {
           </Link>{' '}
           by{' '}
           <Link
-            href="https://www.mohamedgado.com/"
+            href="https://henrydustin.netlify.app/"
             className="font-medium text-slate-300/75"
             target="_blank"
             rel="noopener noreferrer"
@@ -84,8 +85,8 @@ export function Footer() {
           href={siteConfig.links.buyMeACoffee}
           className={cn('text-white', buttonVariants({ variant: 'outline' }))}
         >
-          <Icons.buyMeACoffee className="mr-2 size-5" />
-          Buy me a coffee
+          <Instagram className="mr-2 size-5" />
+          Follow on Instagram
         </Link>
       </div>
     </footer>

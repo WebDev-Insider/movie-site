@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to [Reely Site!](https://www.reely.site)! This is your go-to platform for discovering and streaming the latest movies and exclusive content, designed to enhance your viewing experience.
+Welcome to [hdstream Site!](https://hdstream.vercel.app/)! This is your go-to platform for discovering and streaming the latest movies and exclusive content, designed to enhance your viewing experience.
 
 ## Features
 
@@ -17,5 +17,3 @@ Welcome to [Reely Site!](https://www.reely.site)! This is your go-to platform fo
 ## Support
 
 Would appreciate your support and feedback.
-
-[![Buy Me A Coffee!](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://buymeacoffee.com/vetteotp)

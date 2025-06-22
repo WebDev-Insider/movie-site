@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { Instagram, Youtube } from 'lucide-react'
 
 import { siteConfig } from '@/config/site'
 import { cn } from '@/lib/utils'
@@ -41,7 +42,7 @@ export function SiteHeader() {
                   variant: 'ghost',
                 })}
               >
-                <Icons.gitHub className="size-5" />
+                <Youtube className="size-5" />
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
@@ -71,8 +72,8 @@ export function SiteHeader() {
                   variant: 'ghost',
                 })}
               >
-                <Icons.buyMeACoffee className="size-5" />
-                <span className="sr-only">Buy me a coffee</span>
+                <Instagram className="size-5" />
+                <span className="sr-only"> Instagram</span>
               </div>
             </Link>
           </nav>
