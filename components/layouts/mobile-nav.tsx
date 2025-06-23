@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { Instagram, Youtube } from 'lucide-react'
 
 import { NavItem } from '@/types/navbar'
 import { siteConfig } from '@/config/site'
@@ -61,7 +62,7 @@ export function MobileNav({ items }: MobileNavProps) {
         </div>
         <div className="space-y-6 px-9 pb-10">
           <Link
-            href="https://www.profitableratecpm.com/hwxt5zz7i?key=a5dba98951e6803fa620281826ca66d3"
+            href="https://www.youtube.com/@WebDev_Insider"
             target="_blank"
             rel="noreferrer"
             className={cn(
@@ -73,8 +74,8 @@ export function MobileNav({ items }: MobileNavProps) {
               'text-white'
             )}
           >
-            <Icons.buyMeACoffee className="mr-2 size-5" />
-            Support
+            <Youtube className="mr-2 size-5" />
+            Subcribe on Youtube
           </Link>
           <Link
             href={siteConfig.links.buyMeACoffee}
@@ -89,8 +90,8 @@ export function MobileNav({ items }: MobileNavProps) {
               'text-white'
             )}
           >
-            <Icons.buyMeACoffee className="mr-2 size-5" />
-            Buy me a coffee
+            <Instagram className="mr-2 size-5" />
+            Follow on Instagram
           </Link>
           <Link
             href={siteConfig.links.website}
